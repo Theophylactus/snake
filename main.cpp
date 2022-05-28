@@ -1,6 +1,6 @@
 // clear && g++ -std=c++17 -Wall -O3 -s main.cpp -D_REENTRANT -I/usr/include/SDL2 -lSDL2 -lSDL2_ttf && ./a.out
 
-#include "Crillee_ttf.h"
+#include "Crillee_ttf.hpp"
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
