@@ -87,6 +87,7 @@ public:
 		
 		points.push_back(head_pos);
 		
+		/*
 		if(automated) {
 			switch(facing) {
 				case dir::RIGHT:
@@ -138,6 +139,7 @@ public:
 					break;
 			}
 		}
+		*/
 		
 		/* Resettle the apple if it's touching our head */
 		if(apple_pos.x == head_pos.x && apple_pos.y == head_pos.y) {
