@@ -69,7 +69,7 @@ public:
 				break;
 		}
 		
-		/* Kills the nigger snake */
+		/* Kills the snake */
 		if(head_pos.x < 0 || head_pos.x > WIDTH) {
 			printf("Game over! Score: %lu\n", points.size());
 			this->~Snake();
